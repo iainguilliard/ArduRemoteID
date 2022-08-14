@@ -11,7 +11,7 @@
  - git clone https://github.com/ardupilot/arduremoteid
  - cd arduremoteid/
  - git submodule init
- - git submodule update --recursive
+ - git submodule update --init --recursive
  - ./scripts/regen_headers.sh
  - ./scripts/add_libraries.sh
 
